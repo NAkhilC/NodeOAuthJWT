@@ -1,9 +1,6 @@
 const axios = require("axios");
 const clientID = "d4a71878b1b51173574f";
 const clientSecret = "3394828042bf029bbda9bddcec3a7b4af39c8e31";
-// index.js
-
-/*  EXPRESS */
 const express = require("express");
 const app = express();
 const jwt = require("jsonwebtoken");
