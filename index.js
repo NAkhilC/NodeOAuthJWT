@@ -1,6 +1,6 @@
 const axios = require("axios");
-const clientID = "*****************";
-const clientSecret = "**************************************";
+const clientID = "d4a71878b1b51173574f";
+const clientSecret = "3394828042bf029bbda9bddcec3a7b4af39c8e31";
 // index.js
 
 /*  EXPRESS */
@@ -69,7 +69,7 @@ app.get("/success", function (req, res) {
   })
     .then((response) => {
       try {
-        const token = req.cookies["appgithubtoken"];
+        const token = req.cookies["c035d7f38676d3f9388178730d691997"];
         if (token) {
           const decodedToken = jwt.verify(token, "secretkeyappearshere");
           console.log(decodedToken);
